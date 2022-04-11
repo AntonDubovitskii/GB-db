@@ -21,4 +21,4 @@ INSERT INTO storehouses_products (storehouse_id, product_id, value) VALUES
 
 SELECT round(EXP(sum(LN(id)))) FROM storehouses_products;
 
-/* Честно говоря не понял как решить задачу средствами, рассмотренными в теме урока. Но результат корректный.
+-- Честно говоря не понял как решить задачу средствами, рассмотренными в теме урока. Но результат корректный.

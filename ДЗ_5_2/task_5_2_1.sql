@@ -17,4 +17,4 @@ INSERT INTO users (name, birthday_at) VALUES
   ('Иван', '1998-01-12'),
   ('Мария', '1992-08-29');
   
-SELECT name, round(avg(TIMESTAMPDIFF(YEAR, birthday_at, NOW()))) AS age FROM users;
+SELECT round(avg(TIMESTAMPDIFF(YEAR, birthday_at, NOW()))) AS avg_age FROM users;
